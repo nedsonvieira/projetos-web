@@ -29,3 +29,17 @@
     background-color: var(--laranja);
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 1.5rem;
+    }
+
+    .topicos__link {
+        font-size: 1.5rem;
+    }
+
+    .topicos__item {
+        padding: 1em 0.5em;
+    }
+}
