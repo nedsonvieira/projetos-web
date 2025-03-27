@@ -4,19 +4,22 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-  }
+}
 
+.container__botao:checked ~ .container__label > .cabeçalho__menu-hamburguer {
+    background-image: url("../assets/Menu Aberto.svg");
+}
+
+.container__botao:checked ~ .container__label {
+    background: var(--azul-degrade);
+}
 .container {
   display: flex;
   align-items: center;
 }
-
-.container__botao {
-    display: none;
-}
-
 .container__botao:checked ~ .lista-menu {
     display: block;
+    z-index: 2;
 }
 
 .cabeçalho__menu-hamburguer {
@@ -42,7 +45,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 70vw;
+    width: auto;
 }
 
 .lista-menu__link {
@@ -57,11 +60,7 @@
     padding: 1em;
 }
 
-.container__titulo{
-    display: none;
-}
-
-.opcoes {
+.container__titulo, .opcoes, .container__texto, .container__botao {
     display: none;
 }
 
@@ -94,20 +93,50 @@
         color: var(--preto);
     }
 
-    .container__imagem-transparente{
+    .container__imagem-transparente, .cabeçalho__menu-hamburguer, .opcoes__botao {
         display: none;
     }
-
-    .cabeçalho__menu-hamburguer {
-        display: none;
-    }
-
     .opcoes__botao:checked ~ .lista-menu {
         display: block;
         width: auto;
     }
 
-    .opcoes__botao {
-        display: none;
+    .opcoes__botao:checked ~ .opcoes__label > .opcoes__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+}
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabeçalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
