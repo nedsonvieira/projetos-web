@@ -1,0 +1,47 @@
+.depoimentos {
+    display: block;
+    justify-items: center;
+    padding: 4em 0;
+}
+
+.depoimentos__container {
+    justify-items: center;
+    text-align: center;
+    width: 80%;
+    background-color: var(--cor-cinza-claro);
+    border-radius: 16px;
+    padding: 4em;
+}
+
+.depoimento__colaborador {
+    margin-bottom: 2em;
+}
+
+.depoimentos__pre__titulo {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    margin-bottom: 1em;
+}
+
+.depoimentos__descricao {
+    font-size: 2.25rem;
+    font-weight: 500;
+    letter-spacing: -2%;
+    color: var(--cor-primaria);
+}
+
+.colaborador__imagem {
+    margin-bottom: 1em;
+}
+
+.colaborador__nome {
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin-bottom: 0.5em;
+}
+
+.colaborador__cargo {
+    font-size: 0.875rem;
+    color: var(--cor-primaria);
+}

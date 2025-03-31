@@ -1,0 +1,27 @@
+.metricas {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 2em;
+    margin-bottom: 6em;
+    justify-content: center;
+}
+
+.metrica__titulo{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    padding: 0.2em 0;
+    letter-spacing: -2%;
+}
+
+.metrica__subtitulo {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    padding: 0.2em 0;
+}
+
+.metrica__descricao {
+    color: var(--cor-secundaria);
+    padding: 0.2em 0;
+}

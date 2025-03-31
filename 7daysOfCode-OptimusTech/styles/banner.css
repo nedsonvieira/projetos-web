@@ -1,0 +1,26 @@
+.banner {
+    display: block;
+    padding: 6em 0;
+    justify-items: center;
+    text-align: center;
+}
+
+.banner__pre-titulo {
+    font-weight: 600;
+    color: var(--cor-terciaria);
+}
+
+.banner__titulo {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    margin: 1.5em 0;
+    letter-spacing: -2%;
+}
+
+.banner__pos-titulo {
+    font-size: 1.25rem;
+    color: var(--cor-secundaria);
+    width: 55%;
+}
+

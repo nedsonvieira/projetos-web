@@ -1,0 +1,68 @@
+.vagas {
+    justify-items: center;
+    padding: 4em 0;
+}
+
+.vaga__talentos, .vagas__abertas {
+    display: block;
+    justify-items: center;
+    width: 70%;
+    margin-bottom: 5em;
+}
+
+.vaga__talentos {
+    text-align: center;
+}
+
+.vaga__pre-titulo {
+    padding: 0.25em 0.75em;
+    margin-bottom: 1em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--cor-terciaria);
+}
+
+.vaga__titulo {
+    margin-bottom: 0.6em;
+    font-size: 2.75rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+}
+
+.vaga__pos-titulo {
+    margin-bottom: 4em;
+    font-size: 1.25rem;
+    color: var(--cor-secundaria);
+}
+
+.vagas__abertas__area {
+    width: 70%;
+    margin-bottom: 4em;
+}
+
+.vaga__titulo__area {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin-bottom: 1.5em;
+}
+
+.vaga__disponivel {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    margin-bottom: 2em;
+}
+
+.vaga__descricao__lista {
+    display: flex;
+    gap: 1.5em;
+    color: var(--cor-secundaria);
+}
+
+.vaga__item {
+    padding: 1.5em;
+    border: 2px solid var(--cor-cinza-claro);
+    border-radius: 16px;
+    margin-bottom: 2em;
+}

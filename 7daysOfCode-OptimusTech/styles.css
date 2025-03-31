@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/depoimentos.css");
+@import url("styles/formulario.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:wght@100..700&display=swap');
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-cinza-claro: #EAECF0;
+    --cor-primaria: #101828;
+    --cor-secundaria: #667085;
+    --cor-terciaria: #8E2424;
+    --cor-logo: #3A404E;
+
+    --fonte-principal: 'Inter';
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
