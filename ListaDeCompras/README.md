@@ -1,7 +1,7 @@
 
 # Lista de Compras
 
-Aplicação web de lista de compras desenvolvida mo curso de construção de páginas dinâmicas com JavaScript.
+Aplicação web de lista de compras desenvolvida no curso: Construção de páginas dinâmicas com JavaScript - Alura.
 
 ## 🔨 Funcionalidades do projeto
 
