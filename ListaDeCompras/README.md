@@ -1,5 +1,5 @@
 
-# Titulo do projeto
+# Lista de Compras
 
 Aplicação web de lista de compras desenvolvida mo curso de construção de páginas dinâmicas com JavaScript.
 
